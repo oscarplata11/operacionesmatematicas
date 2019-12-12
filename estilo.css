@@ -1,0 +1,9 @@
+#cuerpo{
+    background-color:lightblue;
+    text-align: center;
+}
+
+.texto{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}

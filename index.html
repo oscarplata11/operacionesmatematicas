@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Operaciones matemáticas</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body id="cuerpo">
+
+    <h1>Operaciones matemáticas</h1>
+
+    <form id="contenedor">
+        <input type="radio" class="texto" id="suma" name="radio" value="suma"> Suma
+        <br>
+        <input type="radio" class="texto" id="resta" name="radio" value="resta"> Resta
+        <br><br>
+        Número 1 <input type="number" class="texto" id="num1">
+        <br><br>
+        Número 2 <input type="number" class="texto" id="num2">
+        <br><br>
+        <input type="button" value="Calcular" onclick="operacion()">
+        <br><br>
+        Resultado <input type="text" class="texto" id="resultado">
+    </form>
+    
+    <script src="myscript.js"></script>
+</body>
+</html>
